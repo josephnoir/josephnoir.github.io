@@ -1,83 +1,138 @@
 .instilogo {
-  height: 50px;
-  filter: grayscale(20%);
+    height: 50px;
+    filter: grayscale(20%);
+}
+
+a {
+    color: "#007";
+    text-decoration: "underline dotted";
 }
 
 a:hover {
-  /* font-weight: 400; */
-  text-decoration: none;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
-  /* color: #444; */
+    /* font-weight: 400; */
+    text-decoration: none;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    /* color: #444; */
+}
+
+body {
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    color: #777;
+    font-weight: 300;
+    font-size: 12pt;
+    background-color: #FFFAF0;
+}
+
+.name {
+    color: #111;
+    font-size: 23pt;
 }
 
 .noter {
-  font-size: 9pt;
+    font-size: 9pt;
 }
 
 .tagsep {
-  padding: 4px;
+    padding: 4px;
 }
 
 .tag {
-  padding-right: 2px;
+    padding-right: 2px;
+    color: rgb(0, 0, 119);
+    text-decoration: underline;
 }
 
 .confshort {
-  font-weight: 300;
+    color: rgb(0, 0, 119);
+    text-decoration: underline;
+    font-weight: 300;
 }
 
 .conf {
-  display: inline-block;
-  padding-bottom: 4px;
+    display: inline-block;
+    padding-bottom: 4px;
 }
 
 .paper {
-  border-left: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.menulink {
+    color: #777;
+    font-size: 15pt;
+    text-decoration: "none";
 }
 
 .menulink:hover {
-  color: #111;
+    color: #111;
+}
+
+.header {
+    color: #007;
+    font-size: 18pt;
+    text-decoration: none;
 }
 
 .profilepic {
-  width: 150px;
-  border-radius: 40%;
-  /* filter: grayscale(100%); */
+    width: 150px;
+    border-radius: 40%;
+    filter: grayscale(30%);
+}
+
+.papertitle {
+    color: #007;
+    font-size: 12pt;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
 }
 
 @media (min-width: 768px) {
-  .fixed-posi {
-    /* width: 50%;
+    .fixed-posi {
+        /* width: 50%;
             margin-left: 50%;
             min-height:100%; */
-    position: fixed;
-  }
+        position: fixed;
+    }
 }
 
 @media only screen and (max-width: 900px) {
-  .allstuff {
-    padding-top: 0px !important;
-  }
+    .allstuff {
+        padding-top: 0px !important;
+    }
 
-  .allstuffp {
-    padding-top: 0px !important;
-  }
+    .allstuffp {
+        padding-top: 0px !important;
+    }
 
-  .profilepic {
-    width: 90px;
-    border-radius: 40%;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-    /* filter: grayscale(100%); */
-  }
+    .profilepic {
+        width: 90px;
+        border-radius: 40%;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        filter: grayscale(30%);
+    }
 
-  .menur {
-    padding-top: 18px !important;
-  }
+    .menur {
+        padding-top: 18px !important;
+    }
+
 }
 
-/* .thisauthor {
-          color: #111;
-          text-decoration: underline;
-    } */
+.thisauthor {
+    color: #111;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.institution {
+    color: #111;
+    font-size: 12px;
+}
+
+.years {
+    color: #007;
+    font-size: 11px;
+}
